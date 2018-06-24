@@ -65,7 +65,7 @@ if __name__ == "__main__":
                         type=argparse.FileType('w'),
                         default=sys.stdout,
                         help="File to output to. Standard output is used if this is not specified")
-    parser.add_argument('--maildir',
+    parser.add_argument('maildir',
                         help="Directory to read from",
                         default="mail/")
     parser.add_argument('--headers',
